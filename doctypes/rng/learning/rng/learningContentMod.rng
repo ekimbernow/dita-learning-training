@@ -74,9 +74,6 @@ ORIGINAL CREATION DATE:
       <define name="learningContent.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="shortdesc"/>
             <ref name="abstract"/>
@@ -116,7 +113,7 @@ ORIGINAL CREATION DATE:
       <define name="learningContent.attlist" combine="interleave">
         <ref name="learningContent.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
     <div>

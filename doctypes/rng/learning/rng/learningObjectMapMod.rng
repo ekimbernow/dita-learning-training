@@ -183,7 +183,7 @@ All Rights Reserved.
       <define name="learningObjectMap.attlist" combine="interleave">
         <ref name="learningObjectMap.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
   </div>

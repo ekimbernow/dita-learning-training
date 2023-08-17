@@ -73,9 +73,6 @@ ORIGINAL CREATION DATE:
       <define name="learningSummary.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="shortdesc"/>
             <ref name="abstract"/>
@@ -110,7 +107,7 @@ ORIGINAL CREATION DATE:
       <define name="learningSummary.attlist" combine="interleave">
         <ref name="learningSummary.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
     <div><a:documentation>LONG NAME: Learning summary body</a:documentation>
