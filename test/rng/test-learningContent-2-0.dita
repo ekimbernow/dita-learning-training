@@ -3,5 +3,8 @@
 <learningContent id="test-content-2-0">
     <title>Test Learning Content 2.0</title>
     <shortdesc></shortdesc>
+  <prolog>
+    <titlealt title-role="navtitle"></titlealt>
+  </prolog>
   <learningContentbody></learningContentbody>
 </learningContent>

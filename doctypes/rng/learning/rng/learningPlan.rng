@@ -90,18 +90,18 @@ ORIGINAL CREATION DATE:
   </div>
   <div>
       <a:documentation>MODULE INCLUSIONS</a:documentation>
-      <include href="../../base/rng/topicMod.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:topicMod.rng"/>
       <include href="learningBaseMod.rng"/>
       <include href="learningPlanMod.rng">
          <define name="learningPlan-info-types">
             <empty/>
          </define>
       </include>    
-      <include href="../../base/rng/deliveryTargetAttDomain.rng" dita:since="1.3"/>
-      <include href="../../base/rng/highlightDomain.rng"/>
-      <include href="../../base/rng/indexingDomain.rng"/>
-      <include href="../../technicalContent/rng/releaseManagementDomain.rng" dita:since="1.3"/>
-      <include href="../../base/rng/utilitiesDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:indexingDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:releaseManagementDomain.rng" dita:since="1.3"/>
+      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng"/>
       <include href="learningInteractionBaseDomain.rng"/>
       <include href="learningInteractionBase2Domain.rng" dita:since="1.3"/>
       <include href="learningDomain.rng"/>

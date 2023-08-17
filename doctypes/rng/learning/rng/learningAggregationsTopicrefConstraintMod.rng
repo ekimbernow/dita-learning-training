@@ -36,13 +36,13 @@ All Rights Reserved.
       <domainsContribution>(map learningAggregationsTopicref-c)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
-  <include href="../../base/rng/mapMod.rng">
+  <include href="urn:oasis:names:tc:dita:rng:mapMod.rng:2.0">
     <define name="topicref">
       <a:documentation>Omit topicref</a:documentation>
       <ref name="mapgroup-d-topicref"/>
     </define>    
   </include>
-  <include href="../../base/rng/mapGroupDomain.rng">
+  <include href="urn:oasis:names:tc:dita:rng:mapGroupMod.rng:2.0">
     <define name="mapgroup-d-topicref">
       <zeroOrMore>
         <choice>

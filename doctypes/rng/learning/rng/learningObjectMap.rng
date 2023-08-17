@@ -84,17 +84,17 @@ ORIGINAL CREATION DATE:
   <div>
       <a:documentation>MODULE INCLUSIONS</a:documentation>
       <include href="learningObjectMapMod.rng"/>
-      <include href="../../base/rng/delayResolutionDomain.rng"/>
-      <include href="../../base/rng/deliveryTargetAttDomain.rng"/>
-      <include href="../../base/rng/ditavalrefDomain.rng"/>
-      <include href="../../base/rng/hazardstatementDomain.rng"/>
-      <include href="../../base/rng/highlightDomain.rng"/>
-      <include href="../../base/rng/indexingDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:delayResolutionDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:ditavalrefDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:hazardstatementDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:highlightDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:indexingDomain.rng"/>
       <include href="learningMapDomain.rng"/>
       <include href="learningMetadataDomain.rng"/>
-      <include href="../../technicalContent/rng/releaseManagementDomain.rng"
+      <include href="urn:oasis:names:tc:dita:rng:releaseManagementDomain.rng"
                dita:since="1.3"/>
-      <include href="../../base/rng/utilitiesDomain.rng"/>
+      <include href="urn:oasis:names:tc:dita:rng:utilitiesDomain.rng"/>
   </div>
   <div>
       <a:documentation>ID-DEFINING-ELEMENT OVERRIDES</a:documentation>
