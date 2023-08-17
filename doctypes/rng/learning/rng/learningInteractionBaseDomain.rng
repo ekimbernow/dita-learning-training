@@ -87,10 +87,7 @@ ORIGINAL CREATION DATE:
           <ref name="conref-atts"/>
           <ref name="select-atts"/>
           <ref name="localization-atts"/>
-          <optional>
-            <attribute name="outputclass"/>
-          </optional>
-        </define>
+     </define>
         <define name="lcInteractionBase.element">
           <element name="lcInteractionBase" dita:longName="Learning interaction base">
             <ref name="lcInteractionBase.attlist"/>
@@ -109,10 +106,7 @@ ORIGINAL CREATION DATE:
         </define>
         <define name="lcQuestionBase.attributes">
           <ref name="univ-atts"/>
-          <optional>
-            <attribute name="outputclass"/>
-          </optional>
-        </define>
+     </define>
         <define name="lcQuestionBase.element">
           <element name="lcQuestionBase" dita:longName="Learning interaction question base">
             <ref name="lcQuestionBase.attlist"/>

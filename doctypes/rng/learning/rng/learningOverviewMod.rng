@@ -97,10 +97,7 @@ ORIGINAL CREATION DATE:
         <ref name="conref-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningOverview.element">
         <element name="learningOverview">
           <a:documentation><![CDATA[A Learning Overview topic identifies the learning objectives, includes other information helpful to the learner, such as prerequisites, duration, intended audience, and can include information and strategies that seeks to gain attention and stimulate recall of prior learning. ]]></a:documentation>
@@ -143,10 +140,7 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="learningOverviewbody.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningOverviewbody.element">
         <element name="learningOverviewbody">
           <a:documentation><![CDATA[The <learningOverviewbody> element is the main body-level element in a learningOverview topic. A learningOverviewbody has a very specific structure, with the following elements in this order: <lcIntro>, <lcAudience>, <lcDuration>, <lcPrereqs>, <lcObjectives>, <lcResources>, followed by one or more <section> elements. Each of the learningOverviewbody sections are optional. ]]></a:documentation>

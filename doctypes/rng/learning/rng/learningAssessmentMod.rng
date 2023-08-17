@@ -97,10 +97,7 @@ ORIGINAL CREATION DATE:
         <ref name="conref-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningAssessment.element">
         <element name="learningAssessment" dita:longName="Learning Assessment">
           <a:documentation>A Learning Assessment presents questions or interactions that measure
@@ -142,10 +139,7 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="learningAssessmentbody.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningAssessmentbody.element">
         <element name="learningAssessmentbody" dita:longName="Learning Assessment Body">
           <a:documentation>The &lt;learningAssessmentbody> element is the main body-level element in a

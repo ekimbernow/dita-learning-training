@@ -170,10 +170,7 @@ All Rights Reserved.
         <optional>
           <attribute name="anchorref"/>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-        <ref name="localization-atts"/>
+     <ref name="localization-atts"/>
         <ref name="topicref-atts-for-learningObjectMap"/>
         <ref name="select-atts"/>
       </define>

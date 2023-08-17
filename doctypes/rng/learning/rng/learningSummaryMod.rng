@@ -99,10 +99,7 @@ ORIGINAL CREATION DATE:
         <ref name="conref-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningSummary.element">
         <element name="learningSummary" dita:longName="Learning summary">
           <a:documentation><![CDATA[A Learning Summary recaps and provides context for the achievement or accomplishment of learning objectives, provides guidance to reinforce learning and long-term memory, and may pose questions to enhance encoding and verification of the learning content. ]]></a:documentation>
@@ -131,10 +128,7 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="learningSummarybody.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningSummarybody.element">
         <element name="learningSummarybody" dita:longName="Learning summary body">
           <a:documentation><![CDATA[The <learningSummarybody> element is the main body-level element in a learningSummary topic. ]]></a:documentation>
