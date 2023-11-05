@@ -9,8 +9,8 @@
                    HEADER                                    
 =============================================================
  MODULE:    DITA Learning Map Domain                         
- VERSION:   1.2                                              
- DATE:      November 2009                                    
+ VERSION:   2.0                                       
+ DATE:      November 2023                                    
                                                              
 =============================================================
 
@@ -20,8 +20,8 @@
                                                              
  Refer to this file by the following public identfier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//ELEMENTS DITA Learning Map Domain//EN"
-      Delivered as file "learningMapDomain.mod"                   
+      
+urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningMapDomain.rng:2.0
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
@@ -32,13 +32,16 @@ PURPOSE:    Declaring the elements and specialization
 ORIGINAL CREATION DATE:                                      
             May 2007                                         
                                                              
-            (C) Copyright OASIS Open 2007, 2009              
+            (C) Copyright OASIS Open 2007, 2023              
             All Rights Reserved.                             
                                                              
-                                                             
+                    
+UPDATES:                                                    
+                    
  16 Aug 2009: WEK Added learningContentComponentRef per TC   
  07 Dec 2009: RDA combined @id, conref-atts, select-atts, and
               localization-atts into a single ref to univ-atts
+ 05 Nov 2023: WEK 2.0 version
                                                              
                                                              
 ============================================================= 

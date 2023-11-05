@@ -11,16 +11,9 @@
 =============================================================
                    HEADER                                    
 =============================================================
-Darwin Information Typing Architecture (DITA) Version 1.3 Plus Errata 02
-OASIS Standard
-16 January 2018 
-Copyright (c) OASIS Open 2018. All rights reserved. 
-Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part0-overview/dita-v1.3-errata02-csprd01-part0-overview-complete.html
-
-============================================================
  MODULE:    DITA Learning Bookmap                        
- VERSION:   1.3                                              
- DATE:      March 2014                                    
+ VERSION:   2.0                                       
+ DATE:      November 2023                                    
                                                              
 =============================================================
 
@@ -31,12 +24,7 @@ Source: http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part
  Refer to this file by the following public identifier or an 
       appropriate system identifier 
       
-PUBLIC "-//OASIS//DTD DITA Learning BookMap//EN"
-
-The public ID above refers to the latest version of this DTD.
-     To refer to this specific version, you may use this value:
-
-PUBLIC "-//OASIS//DTD DITA 1.3 Learning BookMap//EN"              
+urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningBookmap.rng:2.0
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
@@ -46,12 +34,13 @@ PURPOSE:    DTD to describe DITA Learning Book Maps
 ORIGINAL CREATION DATE:                                      
             April 2008                                       
                                                              
-            (C) Copyright OASIS Open 2008, 2014.             
+            (C) Copyright OASIS Open 2008, 2023.             
             All Rights Reserved.                             
                                                              
- UPDATES:                                                    
+UPDATES:                                                    
    2010.09.21 RDA: Added base topic domains  
    2014.03.13 WEK: Updated for DITA 1.3, reimplemented as RNG
+   2023.10.05 WEK: Updated for DITA 2.0
 =============================================================
 </headerComment>
       <moduleMetadata>

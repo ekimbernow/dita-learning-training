@@ -9,9 +9,9 @@
 =============================================================
                    HEADER                                    
 =============================================================
- MODULE:    DITA learningContent                             
- VERSION:   1.3                                              
- DATE:      March 2014                                    
+ MODULE:    DITA learningContent topic type                      
+ VERSION:   2.0                                       
+ DATE:      November 2023                                    
                                                              
 =============================================================
 
@@ -21,8 +21,8 @@
                                                              
  Refer to this file by the following public identfier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//ELEMENTS DITA Learning Content//EN"
-      Delivered as file "learningContent.mod                      
+      
+urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningContentMod.rng:2.0
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
@@ -33,8 +33,12 @@ PURPOSE:    Declaring the elements and specialization
 ORIGINAL CREATION DATE:                                      
             May 2007                                         
                                                              
-            (C) Copyright OASIS Open 2007, 2014.             
-            All Rights Reserved.                             
+            (C) Copyright OASIS Open 2007, 2023.             
+            All Rights Reserved.  
+            
+UPDATES:                                                    
+   2023.11.05 WEK: Updated for DITA 2.0.
+            
 =============================================================
 </headerComment>
     <moduleMetadata>

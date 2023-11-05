@@ -9,7 +9,7 @@
 =============================================================
                    HEADER                                    
 =============================================================
- MODULE:    DITA learningBase                                
+ MODULE:    DITA learningBase topic type                             
  VERSION:   1.2                                              
  DATE:      November 2009                                    
                                                              
@@ -21,8 +21,8 @@
                                                              
  Refer to this file by the following public identfier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//ELEMENTS DITA Learning Base//EN"
-      Delivered as file "learningBase.mod"                        
+
+urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningBaseMod.rng:2.0                        
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
@@ -33,13 +33,15 @@ PURPOSE:    Declaring the elements and specialization
 ORIGINAL CREATION DATE:                                      
             May 2007                                         
                                                              
-            (C) Copyright OASIS Open 2007, 2009.             
+            (C) Copyright OASIS Open 2007, 2023.             
             All Rights Reserved.                             
                                                              
- CHANGE LOG:                                                 
+CHANGE LOG:
                                                              
    Sept 2009: WEK: Make learningBasebody optional per        
-   TC decision.                                              
+   TC decision.
+   Nov 2023:  WEK: Updated for DITA 2.0.
+   
 =============================================================  </headerComment>
     <moduleMetadata>
       <moduleType>topic</moduleType>

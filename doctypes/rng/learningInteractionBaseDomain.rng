@@ -10,8 +10,8 @@
                    HEADER                                    
 =============================================================
  MODULE:    DITA Learning Interaction Base Domain            
- VERSION:   1.2                                              
- DATE:      Sept 2009                                        
+ VERSION:   2.0                                       
+ DATE:      November 2023                                    
                                                              
 =============================================================
 
@@ -21,8 +21,8 @@
                                                              
  Refer to this file by the following public identfier or an 
       appropriate system identifier 
-PUBLIC "-//OASIS//ELEMENTS DITA Learning Interaction Base Domain//EN"
-      Delivered as file "learningInteractionBaseDomain.mod"                     
+
+urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningInteractionBaseDomain.rng:2.0
 
 =============================================================
 SYSTEM:     Darwin Information Typing Architecture (DITA)    
@@ -33,9 +33,12 @@ PURPOSE:    Declaring the elements and specialization
 ORIGINAL CREATION DATE:                                      
             Sept 2009                                        
                                                              
-            (C) Copyright OASIS Open 2009.                   
+            (C) Copyright OASIS Open 2009, 2023             
             All Rights Reserved.                             
-                                                             
+                         
+UPDATES:                                                    
+   2023.11.05 WEK: Updated for DITA 2.0.
+                         
 =============================================================
   </headerComment>
     <moduleMetadata>
