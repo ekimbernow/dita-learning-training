@@ -88,10 +88,8 @@ UPDATES:
       <include href="urn:pubid:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:releaseManagementDomain.rng:2.0" dita:since="1.3"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:utilitiesDomain.rng:2.0"/>
-      <include href="learningInteractionBaseDomain.rng"/>
-      <include href="learningInteractionBase2Domain.rng" dita:since="1.3"/>
-      <include href="learningDomain.rng"/>
-      <include href="learning2Domain.rng" dita:since="1.3"/>
+      <include href="learningInteractionBaseDomain.rng" dita:since="1.2"/>      
+      <include href="learningDomain.rng" dita:since="1.2"/>
       <include href="learningMetadataDomain.rng"/>
   </div>
   <div>
