@@ -46,9 +46,9 @@ ORIGINAL CREATION DATE:
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Learning Interaction Base 2 Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Learning Interaction Base 2 Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:spec:learning:xsd:learningInteractionBase2Domain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:spec:learning:rnc:learningInteractionBase2Domain.rnc<var presep=":" name="ditaver"/></rncMod>
-        <rngMod>urn:oasis:names:tc:dita:spec:learning:rng:learningInteractionBase2Domain.rng<var presep=":" name="ditaver"/></rngMod>
+        <xsdMod>urn:pubid:oasis:names:tc:dita:spec:learning:xsd:learningInteractionBase2Domain.xsd<var presep=":" name="ditaver"/></xsdMod>
+        <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningInteractionBase2Domain.rnc<var presep=":" name="ditaver"/></rncMod>
+        <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningInteractionBase2Domain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
       <domainsContribution>(topic learningInteractionBase2-d)</domainsContribution>
     </moduleMetadata>
@@ -95,9 +95,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="lcInteractionBase2.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="lcInteractionBase2.element">
         <element name="lcInteractionBase2" dita:longName="Learning interaction base 2"
@@ -119,9 +116,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="lcInteractionLabel2.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="lcInteractionLabel2.element">
         <element name="lcInteractionLabel2" dita:longName="Learning interaction question base"
@@ -143,9 +137,6 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="lcQuestionBase2.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
       </define>
       <define name="lcQuestionBase2.element">
         <element name="lcQuestionBase2" dita:longName="Learning interaction question base 2"
@@ -162,21 +153,18 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="lcInteractionBase2.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class"
           a:defaultValue="+ topic/div learningInteractionBase2-d/lcInteractionBase2 "/>
       </optional>
     </define>
     <define name="lcInteractionLabel2.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class"
           a:defaultValue="+ topic/p   learningInteractionBase2-d/lcInteractionLabel2 "/>
       </optional>
     </define>
     <define name="lcQuestionBase2.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class"
           a:defaultValue="+ topic/div   learningInteractionBase2-d/lcQuestionBase2 "/>

@@ -74,9 +74,6 @@ ORIGINAL CREATION DATE:
       <define name="learningContent.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="shortdesc"/>
             <ref name="abstract"/>
@@ -100,10 +97,7 @@ ORIGINAL CREATION DATE:
         <ref name="conref-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningContent.element">
         <element name="learningContent" dita:longName="Learning content topic">
           <a:documentation>A Learning Content topic provides the learning content itself, and enables
@@ -119,7 +113,7 @@ ORIGINAL CREATION DATE:
       <define name="learningContent.attlist" combine="interleave">
         <ref name="learningContent.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
     <div>
@@ -143,10 +137,7 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="learningContentbody.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningContentbody.element">
         <element name="learningContentbody" dita:longName="Learning content body">
           <a:documentation>The &lt;learningContentbody> element is the main body-level element in a
@@ -163,14 +154,12 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation> Specialization attributes. Global attributes and class defaults </a:documentation>
     <define name="learningContent.attlist" combine="interleave">
-      <ref name="global-atts"/>
-      <optional>
+     <optional>
         <attribute name="class" a:defaultValue="- topic/topic learningBase/learningBase learningContent/learningContent "/>
       </optional>
     </define>
     <define name="learningContentbody.attlist" combine="interleave">
-      <ref name="global-atts"/>
-      <optional>
+     <optional>
         <attribute name="class" a:defaultValue="- topic/body  learningBase/learningBasebody learningContent/learningContentbody "/>
       </optional>
     </define>

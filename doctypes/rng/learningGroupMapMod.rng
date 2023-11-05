@@ -170,10 +170,7 @@ All Rights Reserved.
         <optional>
           <attribute name="anchorref"/>
         </optional>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-        <ref name="localization-atts"/>
+     <ref name="localization-atts"/>
         <ref name="topicref-atts-for-learningGroupMap"/>
         <ref name="select-atts"/>
       </define>
@@ -186,15 +183,14 @@ All Rights Reserved.
       <define name="learningGroupMap.attlist" combine="interleave">
         <ref name="learningGroupMap.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
   </div>
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="learningGroupMap.attlist" combine="interleave">
-      <ref name="global-atts"/>
-      <optional>
+     <optional>
         <attribute name="class" a:defaultValue="- map/map learningGroupMap/learningGroupMap "/>
       </optional>
     </define>

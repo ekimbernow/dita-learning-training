@@ -2,6 +2,6 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <!--DITA Learning 2 Domain-->
 
- <nextCatalog catalog="dtd/learning/catalog.xml"/>
- <nextCatalog catalog="rng/learning/catalog.xml"/>
+ <nextCatalog catalog="dtd/catalog.xml"/>
+ <nextCatalog catalog="rng/catalog.xml"/>
 </catalog>

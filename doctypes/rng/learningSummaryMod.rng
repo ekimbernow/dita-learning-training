@@ -73,9 +73,6 @@ ORIGINAL CREATION DATE:
       <define name="learningSummary.content">
         <ref name="title"/>
         <optional>
-          <ref name="titlealts"/>
-        </optional>
-        <optional>
           <choice>
             <ref name="shortdesc"/>
             <ref name="abstract"/>
@@ -99,10 +96,7 @@ ORIGINAL CREATION DATE:
         <ref name="conref-atts"/>
         <ref name="select-atts"/>
         <ref name="localization-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningSummary.element">
         <element name="learningSummary" dita:longName="Learning summary">
           <a:documentation><![CDATA[A Learning Summary recaps and provides context for the achievement or accomplishment of learning objectives, provides guidance to reinforce learning and long-term memory, and may pose questions to enhance encoding and verification of the learning content. ]]></a:documentation>
@@ -113,7 +107,7 @@ ORIGINAL CREATION DATE:
       <define name="learningSummary.attlist" combine="interleave">
         <ref name="learningSummary.attributes"/>
         <ref name="arch-atts"/>
-        <ref name="domains-att"/>
+        <ref name="specializations-att"/>
       </define>
     </div>
     <div><a:documentation>LONG NAME: Learning summary body</a:documentation>
@@ -131,10 +125,7 @@ ORIGINAL CREATION DATE:
       </define>
       <define name="learningSummarybody.attributes">
         <ref name="univ-atts"/>
-        <optional>
-          <attribute name="outputclass"/>
-        </optional>
-      </define>
+     </define>
       <define name="learningSummarybody.element">
         <element name="learningSummarybody" dita:longName="Learning summary body">
           <a:documentation><![CDATA[The <learningSummarybody> element is the main body-level element in a learningSummary topic. ]]></a:documentation>
@@ -150,14 +141,12 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="learningSummary.attlist" combine="interleave">
-      <ref name="global-atts"/>
-      <optional>
+     <optional>
         <attribute name="class" a:defaultValue="- topic/topic learningBase/learningBase     learningSummary/learningSummary "/>
       </optional>
     </define>
     <define name="learningSummarybody.attlist" combine="interleave">
-      <ref name="global-atts"/>
-      <optional>
+     <optional>
         <attribute name="class" a:defaultValue="- topic/body  learningBase/learningBasebody learningSummary/learningSummarybody "/>
       </optional>
     </define>

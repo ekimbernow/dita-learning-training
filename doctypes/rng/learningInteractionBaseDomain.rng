@@ -44,9 +44,9 @@ ORIGINAL CREATION DATE:
       <modulePublicIds>
         <dtdMod>-//OASIS//ELEMENTS DITA<var presep=" " name="ditaver"/> Learning Interaction Base Domain//EN</dtdMod>
         <dtdEnt>-//OASIS//ENTITIES DITA<var presep=" " name="ditaver"/> Learning Interaction Base Domain//EN</dtdEnt>
-        <xsdMod>urn:oasis:names:tc:dita:spec:learning:xsd:learningInteractionBaseDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
-        <rncMod>urn:oasis:names:tc:dita:spec:learning:rnc:learningInteractionBaseDomain.rnc<var presep=":" name="ditaver"/></rncMod>
-        <rngMod>urn:oasis:names:tc:dita:spec:learning:rng:learningInteractionBaseDomain.rng<var presep=":" name="ditaver"/></rngMod>
+        <xsdMod>urn:pubid:oasis:names:tc:dita:spec:learning:xsd:learningInteractionBaseDomain.xsd<var presep=":" name="ditaver"/></xsdMod>
+        <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningInteractionBaseDomain.rnc<var presep=":" name="ditaver"/></rncMod>
+        <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningInteractionBaseDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
       <domainsContribution>(topic learningInteractionBase-d)</domainsContribution>
     </moduleMetadata>
@@ -87,10 +87,7 @@ ORIGINAL CREATION DATE:
           <ref name="conref-atts"/>
           <ref name="select-atts"/>
           <ref name="localization-atts"/>
-          <optional>
-            <attribute name="outputclass"/>
-          </optional>
-        </define>
+     </define>
         <define name="lcInteractionBase.element">
           <element name="lcInteractionBase" dita:longName="Learning interaction base">
             <ref name="lcInteractionBase.attlist"/>
@@ -109,10 +106,7 @@ ORIGINAL CREATION DATE:
         </define>
         <define name="lcQuestionBase.attributes">
           <ref name="univ-atts"/>
-          <optional>
-            <attribute name="outputclass"/>
-          </optional>
-        </define>
+     </define>
         <define name="lcQuestionBase.element">
           <element name="lcQuestionBase" dita:longName="Learning interaction question base">
             <ref name="lcQuestionBase.attlist"/>
@@ -128,13 +122,11 @@ ORIGINAL CREATION DATE:
   <div>
     <a:documentation>SPECIALIZATION ATTRIBUTE DECLARATIONS</a:documentation>
     <define name="lcInteractionBase.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/fig learningInteractionBase-d/lcInteractionBase "/>
       </optional>
     </define>
     <define name="lcQuestionBase.attlist" combine="interleave">
-      <ref name="global-atts"/>
       <optional>
         <attribute name="class" a:defaultValue="+ topic/p   learningInteractionBase-d/lcQuestionBase "/>
       </optional>
