@@ -54,7 +54,6 @@ CHANGE LOG:
         <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningBaseMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningBaseMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic learningBase+learningInteractionBase-d+learningInteractionBase)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
 

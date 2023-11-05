@@ -9,7 +9,13 @@
               uri="learningDomain.rng"/>
       <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng"
               uri="learningDomain.rng"/>
-      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.0"
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.0"
+             uri="learning2Domain.rng"/>
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.x"
+             uri="learning2Domain.rng"/>
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng"
+             uri="learning2Domain.rng"/>
+     <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.0"
               uri="learningAggregationsTopicrefConstraintMod.rng"/>
       <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.x"
               uri="learningAggregationsTopicrefConstraintMod.rng"/>
@@ -149,6 +155,12 @@
            uri="learningDomain.rng"/>
       <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng"
            uri="learningDomain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.0"
+           uri="learning2Domain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.x"
+           uri="learning2Domain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng"
+           uri="learning2Domain.rng"/>
       <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.0"
            uri="learningAggregationsTopicrefConstraintMod.rng"/>
       <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.x"

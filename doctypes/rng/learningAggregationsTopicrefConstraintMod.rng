@@ -38,7 +38,6 @@ UPDATES:
         <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningAggregationsTopicrefConstraintMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(map learningAggregationsTopicref-c)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <include href="urn:pubid:oasis:names:tc:dita:rng:mapMod.rng:2.0">

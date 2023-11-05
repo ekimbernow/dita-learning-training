@@ -53,7 +53,6 @@ UPDATES:
         <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningInteractionBaseDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningInteractionBaseDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic learningInteractionBase-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

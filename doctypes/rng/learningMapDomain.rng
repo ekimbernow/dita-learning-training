@@ -56,7 +56,6 @@ UPDATES:
         <rncMod>urn:oasis:names:tc:dita:spec:learning:rnc:learningMapDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:spec:learning:rng:learningMapDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(map learningmap-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

@@ -52,7 +52,6 @@ UPDATES:
         <rncMod>urn:oasis:names:tc:dita:spec:learning:rnc:learningOverviewMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:spec:learning:rng:learningOverviewMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic learningBase learningOverview)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

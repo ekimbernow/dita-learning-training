@@ -56,7 +56,6 @@ UPDATES:
         <rncMod>urn:pubid:oasis:names:tc:dita:spec:learning:rnc:learningMetadataDomain.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningMetadataDomain.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic learningmeta-d)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
   <div>

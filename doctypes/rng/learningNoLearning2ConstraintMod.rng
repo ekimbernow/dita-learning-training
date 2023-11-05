@@ -40,7 +40,6 @@ UPDATES:
         <rncMod>urn:oasis:names:tc:dita:spec:learning:rnc:learningNoLearning2ConstraintMod.rnc<var presep=":" name="ditaver"/></rncMod>
         <rngMod>urn:oasis:names:tc:dita:spec:learning:rng:learningNoLearning2ConstraintMod.rng<var presep=":" name="ditaver"/></rngMod>
       </modulePublicIds>
-      <domainsContribution>(topic lcInteraction learningNoLearning2-c)</domainsContribution>
     </moduleMetadata>
   </moduleDesc>
 
