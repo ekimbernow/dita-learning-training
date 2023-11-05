@@ -84,6 +84,7 @@ UPDATES:
       <include href="urn:pubid:oasis:names:tc:dita:rng:bookmapMod.rng:2.0"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:deliveryTargetAttDomain.rng:2.0" dita:since="1.3"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:ditavalrefDomain.rng:2.0" dita:since="1.3"/>
+      <include href="urn:pubid:oasis:names:tc:dita:rng:emphasisDomain.rng:2.0" dita:since="2.0"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:hazardDomain.rng:2.0"/>
       <include href="urn:pubid:oasis:names:tc:dita:rng:highlightDomain.rng:2.0"/>
       <include href="learningMapDomain.rng"/>
