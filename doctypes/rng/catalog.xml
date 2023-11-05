@@ -3,12 +3,12 @@
 <!--DITA Learning 2 Domain-->
 
    <group><!-- System ID (URL) catalog entries -->
-      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.0"
-              uri="learning2Domain.rng"/>
-      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.x"
-              uri="learning2Domain.rng"/>
-      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng"
-              uri="learning2Domain.rng"/>
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng:2.0"
+              uri="learningDomain.rng"/>
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng:2.x"
+              uri="learningDomain.rng"/>
+      <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng"
+              uri="learningDomain.rng"/>
       <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.0"
               uri="learningAggregationsTopicrefConstraintMod.rng"/>
       <system systemId="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.x"
@@ -143,12 +143,12 @@
               uri="learningSummaryMod.rng"/>
    </group>
    <group><!-- Public ID (URN) catalog entries -->
-      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.0"
-           uri="learning2Domain.rng"/>
-      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng:2.x"
-           uri="learning2Domain.rng"/>
-      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learning2Domain.rng"
-           uri="learning2Domain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng:2.0"
+           uri="learningDomain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng:2.x"
+           uri="learningDomain.rng"/>
+      <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningDomain.rng"
+           uri="learningDomain.rng"/>
       <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.0"
            uri="learningAggregationsTopicrefConstraintMod.rng"/>
       <uri name="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningAggregationsTopicrefConstraintMod.rng:2.x"
