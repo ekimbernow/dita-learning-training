@@ -49,11 +49,6 @@
          "learningBase.ent"
 >%learningBase-dec;
 
-<!ENTITY % learningOverview-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Overview//EN"
-         "learningOverview.ent"
->%learningOverview-dec;
-
 <!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
@@ -77,10 +72,20 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
+<!ENTITY % mathml-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 MathML Domain//EN"
+         "mathmlDomain.ent"
+>%mathml-d-dec;
+
 <!ENTITY % relmgmt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN"
          "../../technicalContent/dtd/releaseManagementDomain.ent"
 >%relmgmt-d-dec;
+
+<!ENTITY % svg-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 SVG Domain//EN"
+         "svgDomain.ent"
+>%svg-d-dec;
 
 <!ENTITY % ut-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Utilities Domain//EN"
@@ -145,8 +150,7 @@
                          %emphasis-d-ph; |
                          %hi-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
+<!ENTITY % fig          "fig
                         ">
 <!ENTITY % data         "data |
                          %ut-d-data;
@@ -161,7 +165,8 @@
                         ">
 <!ENTITY % div          "div |
                          %learningInteractionBase-d-div; |
-                         %learning-d-div;
+                         %learning-d-div; |
+                         %ut-d-div;
                         ">
 <!ENTITY % note         "note |
                          %learning-d-note;
@@ -248,10 +253,20 @@
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
 
+<!ENTITY % mathml-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 MathML Domain//EN"
+         "mathmlDomain.mod"
+>%mathml-d-def;
+
 <!ENTITY % relmgmt-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Release Management Domain//EN"
          "../../technicalContent/dtd/releaseManagementDomain.mod"
 >%relmgmt-d-def;
+
+<!ENTITY % svg-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 SVG Domain//EN"
+         "svgDomain.mod"
+>%svg-d-def;
 
 <!ENTITY % ut-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"

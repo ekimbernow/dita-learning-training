@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="urn:pubid:oasis:names:tc:dita:spec:learning:rng:learningOverview.rng:2.0" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE learningOverview PUBLIC "-//OASIS//DTD DITA 2.0 Learning Overview//EN" "learningOverview.dtd">
 <learningOverview id="test-Overview-2-0">
     <title>Test Learning Overview 2.0</title>
     <shortdesc></shortdesc>

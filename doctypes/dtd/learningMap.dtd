@@ -68,6 +68,14 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
+<!-- This must precede the learningmap inclusions as they refer
+     to entities declared in this module.
+  -->
+<!ENTITY % mapgroup-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Map Group Domain//EN"
+         "../../base/dtd/mapGroup.ent"
+>%mapgroup-d-dec;
+
 <!ENTITY % learningmap-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Map Domain//EN"
          "learningMapDomain.ent"
@@ -78,10 +86,6 @@
          "learningMetadataDomain.ent"
 >%learningmeta-d-dec;
 
-<!ENTITY % mapgroup-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.ent"
->%mapgroup-d-dec;
 
 <!ENTITY % relmgmt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Release Management Domain//EN"
@@ -217,6 +221,14 @@
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
 
+<!-- This must precede the learningmap inclusions as they refer
+     to entities declared in this module.
+  -->
+<!ENTITY % mapgroup-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Map Group Domain//EN"
+         "../../base/dtd/mapGroup.mod"
+>%mapgroup-d-def;
+
 <!ENTITY % learningmap-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning Map Domain//EN"
          "learningMapDomain.mod"
@@ -226,11 +238,6 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning Metadata Domain//EN"
          "learningMetadataDomain.mod"
 >%learningmeta-d-def;
-
-<!ENTITY % mapgroup-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Map Group Domain//EN"
-         "../../base/dtd/mapGroup.mod"
->%mapgroup-d-def;
 
 <!ENTITY % relmgmt-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Release Management Domain//EN"

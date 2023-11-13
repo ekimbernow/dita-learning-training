@@ -84,10 +84,10 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
-<!ENTITY % learningmap-d-dec
+<!ENTITY % learningmapdomain-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Map Domain//EN"
          "learningMapDomain.ent"
->%learningmap-d-dec;
+>%learningmapdomain-d-dec;
 
 <!ENTITY % learningmeta-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Metadata Domain//EN"
@@ -148,8 +148,7 @@
                          %ditavalref-d-topicref; |
                          %learningmap-d-topicref;
                         ">
-<!ENTITY % keywords     "keywords |
-                         %delay-d-keywords;
+<!ENTITY % keywords     "keywords
                         ">
 <!ENTITY % note         "note |
                          %hazard-d-note;
@@ -158,8 +157,7 @@
                          %emphasis-d-ph; |
                          %hi-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
+<!ENTITY % fig          "fig
                         ">
 <!ENTITY % data         "data |
                          %ut-d-data;

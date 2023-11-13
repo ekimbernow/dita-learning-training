@@ -29,11 +29,6 @@
 <!--                MAP ENTITY DECLARATIONS                        -->
 <!-- ============================================================= -->
 
-<!ENTITY % learningObjectMap-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Object Map//EN"
-         "learningObjectMap.ent"
->%learningObjectMap-dec;
-
 <!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
@@ -156,8 +151,7 @@
 <!ENTITY % data         "data |
                          %ut-d-data;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
+<!ENTITY % fig          "fig
                         ">
 <!ENTITY % metadata     "metadata |
                          %relmgmt-d-metadata; |

@@ -42,11 +42,6 @@
          "learningBase.ent"
 >%learningBase-dec;
 
-<!ENTITY % learningSummary-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Learning Summary//EN"
-         "learningSummary.ent"
->%learningSummary-dec;
-
 <!-- ============================================================= -->
 <!--             DOMAIN CONSTRAINT INTEGRATION                     -->
 <!-- ============================================================= -->
@@ -89,10 +84,30 @@
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
 <!-- ============================================================= -->
 
+<!ENTITY % audienceAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Audience Attribute Domain//EN"
+         "audienceAttDomain.ent"
+>%audienceAtt-d-dec;
+
 <!ENTITY % deliveryTargetAtt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Delivery Target Attribute Domain//EN"
-         "../../base/dtd/deliveryTargetAttDomain.ent"
+         "deliveryTargetAttDomain.ent"
 >%deliveryTargetAtt-d-dec;
+
+<!ENTITY % platformAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Platform Attribute Domain//EN"
+         "platformAttDomain.ent"
+>%platformAtt-d-dec;
+
+<!ENTITY % productAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Product Attribute Domain//EN"
+         "productAttDomain.ent"
+>%productAtt-d-dec;
+
+<!ENTITY % otherpropsAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Otherprops Attribute Domain//EN"
+         "otherpropsAttDomain.ent"
+>%otherpropsAtt-d-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
@@ -104,8 +119,7 @@
 <!ENTITY % ph           "ph |
                          %hi-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
+<!ENTITY % fig          "fig
                         ">
 <!ENTITY % data         "data |
                          %ut-d-data;
@@ -116,7 +130,8 @@
                         ">
 <!ENTITY % div          "div |
                          %learningInteractionBase-d-div; |
-                         %learning-d-div;
+                         %learning-d-div; |
+                         %ut-d-div;
                         ">
 <!ENTITY % note         "note |
                          %learning-d-note;å

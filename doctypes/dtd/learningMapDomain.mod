@@ -66,6 +66,50 @@
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
+<!ENTITY % learningDomain-topicref-atts-no-chunk
+              "navtitle
+                          CDATA
+                                    #IMPLIED
+               href
+                          CDATA
+                                    #IMPLIED
+               keyref
+                          CDATA
+                                    #IMPLIED
+               keys
+                          CDATA
+                                    #IMPLIED
+               keyscope
+                          CDATA
+                                    #IMPLIED
+               cascade
+                          CDATA
+                                    #IMPLIED
+               scope
+                          (external |
+                           local |
+                           peer |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               processing-role
+                          (normal |
+                           resource-only |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               linking
+                          (targetonly |
+                           sourceonly |
+                           normal |
+                           none |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               search
+                          (yes |
+                           no |
+                           -dita-use-conref-target)
+                                    #IMPLIED
+               %univ-atts;"
+>
 <!ENTITY % learningObjectComponent-topicref-atts
               "%learningDomain-topicref-atts-no-chunk;
                chunk
@@ -217,7 +261,7 @@
                          (%data.elements.incl;)*)"
 >
 <!ENTITY % learningGroupMapRef.attributes
-              "%mapref-atts;"
+              "%mapref.attributes;"
 >
 <!ELEMENT  learningGroupMapRef %learningGroupMapRef.content;>
 <!ATTLIST  learningGroupMapRef %learningGroupMapRef.attributes;>
@@ -229,7 +273,7 @@
                          (%data.elements.incl;)*)"
 >
 <!ENTITY % learningObjectMapRef.attributes
-              "%mapref-atts;"
+              "%mapref.attributes;"
 >
 <!ELEMENT  learningObjectMapRef %learningObjectMapRef.content;>
 <!ATTLIST  learningObjectMapRef %learningObjectMapRef.attributes;>
