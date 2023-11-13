@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA 2.0 Learning Assessment//EN" "learningAssessment.dtd">
+<!DOCTYPE learningAssessment PUBLIC "-//OASIS//DTD DITA 2.0 Learning Assessment Learning2//EN" "learningAssessmentLearning2.dtd">
 <learningAssessment id="test-assessment-2-0">
-    <title>Test Assessment 2.0</title>
+    <title>Test Assessment 2.0 for Learning2 Domain</title>
     <shortdesc></shortdesc>
     <learningAssessmentbody>
       <section>

@@ -55,10 +55,7 @@
                           %txt.incl;)*)"
 >
 <!ENTITY % lcInteractionBase.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  lcInteractionBase2 %lcInteractionBase.content;>
 <!ATTLIST  lcInteractionBase2 %lcInteractionBase.attributes;>
@@ -69,10 +66,7 @@
                        "(%title.cnt;)*"
 >
 <!ENTITY % lcInteractionLabel.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  lcInteractionLabel2 %lcInteractionLabel.content;>
 <!ATTLIST  lcInteractionLabel2 %lcInteractionLabel.attributes;>
@@ -83,10 +77,7 @@
                        "(%div.cnt;)*"
 >
 <!ENTITY % lcQuestionBase.attributes
-              "%univ-atts;
-               outputclass
-                          CDATA
-                                    #IMPLIED"
+              "%univ-atts;"
 >
 <!ELEMENT  lcQuestionBase2 %lcQuestionBase.content;>
 <!ATTLIST  lcQuestionBase2 %lcQuestionBase.attributes;>

@@ -39,6 +39,12 @@
            uri="learningAssessment.ent"/>
    <public publicId="-//OASIS//ENTITIES DITA Learning Assessment//EN"
            uri="learningAssessment.ent"/>
+   <public publicId="-//OASIS//DTD DITA 2.0 Learning Assessment Learning2//EN"
+           uri="learningAssessmentLearning2.dtd"/>
+   <public publicId="-//OASIS//DTD DITA 2.x Learning Assessment Learning2//EN"
+           uri="learningAssessmentLearning2.dtd"/>
+   <public publicId="-//OASIS//DTD DITA Learning Assessment Learning2//EN"
+           uri="learningAssessmentLearning2.dtd"/>
    <public publicId="-//OASIS//ENTITIES DITA 2.0 Learning Base//EN"
            uri="learningBase.ent"/>
    <public publicId="-//OASIS//ENTITIES DITA 2.x Learning Base//EN"
@@ -87,6 +93,10 @@
            uri="learningDomain.ent"/>
    <public publicId="-//OASIS//ENTITIES DITA Learning Domain//EN"
            uri="learningDomain.ent"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.0 Learning 2 Domain//EN"
+           uri="dtd/learning2Domain.mod"/>
+   <public publicId="-//OASIS//ELEMENTS DITA 2.x Learning 2 Domain//EN"
+           uri="dtd/learning2Domain.mod"/>
    <public publicId="-//OASIS//DTD DITA 2.0 Learning Group Map//EN"
            uri="learningGroupMap.dtd"/>
    <public publicId="-//OASIS//DTD DITA 2.x Learning Group Map//EN"
