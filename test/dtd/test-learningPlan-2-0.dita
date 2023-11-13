@@ -3,5 +3,19 @@
 <learningPlan id="test-Plan-2-0">
     <title>Test Learning Plan 2.0</title>
     <shortdesc></shortdesc>
-  <learningPlanbody></learningPlanbody>
+  <learningPlanbody>
+    <lcGapAnalysis></lcGapAnalysis>
+    <lcIntervention></lcIntervention>
+    <lcTechnical>
+      <lcHandouts>
+        <ul>
+          <li>Handout 1</li>
+          <li>Handout 2</li>
+        </ul>
+      </lcHandouts>
+      <lcClassroom></lcClassroom>
+      <lcDownloadTime></lcDownloadTime>      
+      <lcSecurity></lcSecurity>
+    </lcTechnical>
+  </learningPlanbody>
 </learningPlan>

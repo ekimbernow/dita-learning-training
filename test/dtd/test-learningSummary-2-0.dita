@@ -3,5 +3,10 @@
 <learningSummary id="test-Summary-2-0">
     <title>Test Learning Summary 2.0</title>
     <shortdesc></shortdesc>
-  <learningSummarybody></learningSummarybody>
+  <learningSummarybody>
+    <lcNextSteps>     
+    </lcNextSteps>
+    <lcReview></lcReview>
+    <lcSummary></lcSummary>
+  </learningSummarybody>
 </learningSummary>

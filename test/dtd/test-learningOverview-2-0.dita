@@ -3,5 +3,31 @@
 <learningOverview id="test-Overview-2-0">
     <title>Test Learning Overview 2.0</title>
     <shortdesc></shortdesc>
-  <learningOverviewbody></learningOverviewbody>
+  <learningOverviewbody>
+    <lcAudience>adsfads</lcAudience>
+    <lcDuration></lcDuration>
+    <lcObjectives></lcObjectives>
+    <lcResources></lcResources>
+    <section>
+      <title>adfdas</title>
+      <p>asdfads</p>
+      <lcInstructornote>
+        <p>adfadsfdsa</p>
+      </lcInstructornote>
+    </section>
+    <section>
+      <title>asdfadsfds</title>
+      <lcTrueFalse>
+        <lcQuestion>Is this true?</lcQuestion>
+        <lcAnswerOptionGroup>
+          <lcAnswerOption>
+            <lcAnswerContent>True</lcAnswerContent>
+          </lcAnswerOption>
+          <lcAnswerOption>
+            <lcAnswerContent>False</lcAnswerContent>
+          </lcAnswerOption>
+        </lcAnswerOptionGroup>
+      </lcTrueFalse>
+    </section>
+  </learningOverviewbody>
 </learningOverview>

@@ -3,4 +3,13 @@
 <map id="test-learninMap-2-0">
     <title>Test Learning Map 2.0</title>
   <learningGroup></learningGroup>
+  <learningObject>
+    <learningContentRef></learningContentRef>
+  </learningObject>
+  <learningObjectMapRef></learningObjectMapRef>
+  <topicref>
+    <learningObject>
+      <learningContentRef></learningContentRef>
+    </learningObject>
+  </topicref>
 </map>
