@@ -646,37 +646,37 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  lcInstructornote    %global-atts;  class CDATA "+ topic/note learningInteractionBase-d/note learning-d/lcInstructornote learning2-d/lcInstructornote2 ">
-<!ATTLIST  lcTrueFalse         %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse learning2-d/lcTrueFalse2 ">
-<!ATTLIST  lcSingleSelect      %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect learning2-d/lcSingleSelect2 ">
-<!ATTLIST  lcMultipleSelect    %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcMultipleSelect learning2-d/lcMultipleSelect2 ">
-<!ATTLIST  lcSequencing        %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcSequencing learning2-d/lcSequencing2 ">
-<!ATTLIST  lcMatching          %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcMatching learning2-d/lcMatching2 ">
-<!ATTLIST  lcHotspot           %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcHotspot learning2-d/lcHotspot2 ">
-<!ATTLIST  lcOpenQuestion      %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcOpenQuestion learning2-d/lcOpenQuestion2 ">
-<!ATTLIST  lcQuestion          %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcQuestionBase2 learning-d/lcQuestion learning2-d/lcQuestion2 ">
-<!ATTLIST  lcOpenAnswer        %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcOpenAnswer learning2-d/lcOpenAnswer2 ">
-<!ATTLIST  lcAsset             %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcAsset learning2-d/lcAsset2 ">
-<!ATTLIST  lcFeedback          %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedback learning2-d/lcFeedback2 ">
-<!ATTLIST  lcFeedbackCorrect   %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedbackCorrect learning2-d/lcFeedbackCorrect2 ">
-<!ATTLIST  lcFeedbackIncorrect %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedbackIncorrect learning2-d/lcFeedbackIncorrect2 ">
-<!ATTLIST  lcAnswerOption      %global-atts;  class CDATA "+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption learning2-d/lcAnswerOption2 ">
-<!ATTLIST  lcAnswerOptionGroup %global-atts;  class CDATA "+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup learning2-d/lcAnswerOptionGroup2 ">
-<!ATTLIST  lcAnswerContent     %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcAnswerContent learning2-d/lcAnswerContent2 ">
-<!ATTLIST  lcMatchTable        %global-atts;  class CDATA "+ topic/simpletable learningInteractionBase-d/simpletable learning-d/lcMatchTable learning2-d/lcMatchTable2 ">
-<!ATTLIST  lcMatchingHeader    %global-atts;  class CDATA "+ topic/sthead learningInteractionBase-d/sthead learning-d/lcMatchingHeader learning2-d/lcMatchingHeader2 ">
-<!ATTLIST  lcMatchingPair      %global-atts;  class CDATA "+ topic/strow learningInteractionBase-d/strow learning-d/lcMatchingPair learning2-d/lcMatchingPair2 ">
-<!ATTLIST  lcItem              %global-atts;  class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcItem learning2-d/lcItem2 ">
-<!ATTLIST  lcMatchingItem      %global-atts;  class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcMatchingItem learning2-d/lcMatchingItem2 ">
-<!ATTLIST  lcMatchingItemFeedback %global-atts;  class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcMatchingItemFeedback learning2-d/lcMatchingItemFeedback2 ">
-<!ATTLIST  lcSequenceOptionGroup %global-atts;  class CDATA "+ topic/ol learningInteractionBase-d/ol learning-d/lcSequenceOptionGroup learning2-d/lcSequenceOptionGroup2 ">
-<!ATTLIST  lcSequenceOption    %global-atts;  class CDATA "+ topic/li learningInteractionBase-d/li learning-d/lcSequenceOption learning2-d/lcSequenceOption2 ">
-<!ATTLIST  lcSequence          %global-atts;  class CDATA "+ topic/data learningInteractionBase-d/data learning-d/lcSequence learning2-d/lcSequence2 ">
-<!ATTLIST  lcCorrectResponse   %global-atts;  class CDATA "+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse learning2-d/lcCorrectResponse2 ">
-<!ATTLIST  lcHotspotMap        %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcHotspotMap learning2-d/lcHotspotMap2 ">
-<!ATTLIST  lcArea              %global-atts;  class CDATA "+ topic/figgroup learningInteractionBase-d/figgroup learning-d/lcArea learning2-d/lcArea2 ">
-<!ATTLIST  lcAreaShape         %global-atts;  class CDATA "+ topic/keyword learningInteractionBase-d/keyword learning-d/lcAreaShape learning2-d/lcAreaShape2 ">
-<!ATTLIST  lcAreaCoords        %global-atts;  class CDATA "+ topic/ph learningInteractionBase-d/ph learning-d/lcAreaCoords learning2-d/lcAreaCoords2 ">
+<!ATTLIST  lcInstructornote    class CDATA "+ topic/note learningInteractionBase-d/note learning-d/lcInstructornote learning-d/lcInstructornote2 ">
+<!ATTLIST  lcTrueFalse         class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcTrueFalse learning-d/lcTrueFalse2 ">
+<!ATTLIST  lcSingleSelect      class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcSingleSelect learning-d/lcSingleSelect2 ">
+<!ATTLIST  lcMultipleSelect    class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcMultipleSelect learning-d/lcMultipleSelect2 ">
+<!ATTLIST  lcSequencing        class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcSequencing learning-d/lcSequencing2 ">
+<!ATTLIST  lcMatching          class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcMatching learning-d/lcMatching2 ">
+<!ATTLIST  lcHotspot           class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcHotspot learning-d/lcHotspot2 ">
+<!ATTLIST  lcOpenQuestion      class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase learning-d/lcOpenQuestion learning-d/lcOpenQuestion2 ">
+<!ATTLIST  lcQuestion          class CDATA "+ topic/div learningInteractionBase-d/lcQuestionBase2 learning-d/lcQuestion learning-d/lcQuestion2 ">
+<!ATTLIST  lcOpenAnswer        class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcOpenAnswer learning-d/lcOpenAnswer2 ">
+<!ATTLIST  lcAsset             class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcAsset learning-d/lcAsset2 ">
+<!ATTLIST  lcFeedback          class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedback learning-d/lcFeedback2 ">
+<!ATTLIST  lcFeedbackCorrect   class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedbackCorrect learning-d/lcFeedbackCorrect2 ">
+<!ATTLIST  lcFeedbackIncorrect class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcFeedbackIncorrect learning-d/lcFeedbackIncorrect2 ">
+<!ATTLIST  lcAnswerOption      class CDATA "+ topic/li learningInteractionBase-d/li learning-d/lcAnswerOption learning-d/lcAnswerOption2 ">
+<!ATTLIST  lcAnswerOptionGroup class CDATA "+ topic/ul learningInteractionBase-d/ul learning-d/lcAnswerOptionGroup learning-d/lcAnswerOptionGroup2 ">
+<!ATTLIST  lcAnswerContent     class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcAnswerContent learning-d/lcAnswerContent2 ">
+<!ATTLIST  lcMatchTable        class CDATA "+ topic/simpletable learningInteractionBase-d/simpletable learning-d/lcMatchTable learning-d/lcMatchTable2 ">
+<!ATTLIST  lcMatchingHeader    class CDATA "+ topic/sthead learningInteractionBase-d/sthead learning-d/lcMatchingHeader learning-d/lcMatchingHeader2 ">
+<!ATTLIST  lcMatchingPair      class CDATA "+ topic/strow learningInteractionBase-d/strow learning-d/lcMatchingPair learning-d/lcMatchingPair2 ">
+<!ATTLIST  lcItem              class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcItem learning-d/lcItem2 ">
+<!ATTLIST  lcMatchingItem      class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcMatchingItem learning-d/lcMatchingItem2 ">
+<!ATTLIST  lcMatchingItemFeedback class CDATA "+ topic/stentry learningInteractionBase-d/stentry learning-d/lcMatchingItemFeedback learning-d/lcMatchingItemFeedback2 ">
+<!ATTLIST  lcSequenceOptionGroup class CDATA "+ topic/ol learningInteractionBase-d/ol learning-d/lcSequenceOptionGroup learning-d/lcSequenceOptionGroup2 ">
+<!ATTLIST  lcSequenceOption    class CDATA "+ topic/li learningInteractionBase-d/li learning-d/lcSequenceOption learning-d/lcSequenceOption2 ">
+<!ATTLIST  lcSequence          class CDATA "+ topic/data learningInteractionBase-d/data learning-d/lcSequence learning-d/lcSequence2 ">
+<!ATTLIST  lcCorrectResponse   class CDATA "+ topic/data learningInteractionBase-d/data learning-d/lcCorrectResponse learning-d/lcCorrectResponse2 ">
+<!ATTLIST  lcHotspotMap        class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcHotspotMap learning-d/lcHotspotMap2 ">
+<!ATTLIST  lcArea              class CDATA "+ topic/figgroup learningInteractionBase-d/figgroup learning-d/lcArea learning-d/lcArea2 ">
+<!ATTLIST  lcAreaShape         class CDATA "+ topic/keyword learningInteractionBase-d/keyword learning-d/lcAreaShape learning-d/lcAreaShape2 ">
+<!ATTLIST  lcAreaCoords        class CDATA "+ topic/ph learningInteractionBase-d/ph learning-d/lcAreaCoords learning-d/lcAreaCoords ">
 
-<!-- ================== End of DITA Learning 2 Domain ==================== -->
+<!-- ================== End of DITA Learning  Domain ==================== -->
  

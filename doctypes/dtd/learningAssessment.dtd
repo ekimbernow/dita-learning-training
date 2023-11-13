@@ -55,11 +55,6 @@
          "../../base/dtd/highlightDomain.ent"
 >%hi-d-dec;
 
-<!ENTITY % indexing-d-dec
-  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.ent"
->%indexing-d-dec;
-
 <!ENTITY % ut-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Utilities Domain//EN"
          "../../base/dtd/utilitiesDomain.ent"
@@ -89,10 +84,30 @@
 <!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
 <!-- ============================================================= -->
 
+<!ENTITY % audienceAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Audience Attribute Domain//EN"
+         "audienceAttDomain.ent"
+>%audienceAtt-d-dec;
+
 <!ENTITY % deliveryTargetAtt-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 2.0 Delivery Target Attribute Domain//EN"
          "deliveryTargetAttDomain.ent"
 >%deliveryTargetAtt-d-dec;
+
+<!ENTITY % otherpropsAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Otherprops Attribute Domain//EN"
+         "otherpropsAttDomain.ent"
+>%otherpropsAtt-d-dec;
+
+<!ENTITY % platformAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Platform Attribute Domain//EN"
+         "platformAttDomain.ent"
+>%platformAtt-d-dec;
+
+<!ENTITY % productAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 2.0 Product Attribute Domain//EN"
+         "productAttDomain.ent"
+>%productAtt-d-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
@@ -101,15 +116,10 @@
                         the name of the domain(s) in which the
                         extension was declared                     -->
 
-<!ENTITY % index-base   "index-base |
-                         %indexing-d-index-base;
-                        ">
 <!ENTITY % ph           "ph |
                          %hi-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;
-                        ">
+<!ENTITY % fig          "fig">
 <!ENTITY % data         "data |
                          %ut-d-data;
                         ">
@@ -119,7 +129,8 @@
                         ">
 <!ENTITY % div          "div |
                          %learningInteractionBase-d-div; |
-                         %learning-d-div;
+                         %learning-d-div; |
+                         %ut-d-div;
                         ">
 <!ENTITY % note         "note |
                          %learning-d-note;
@@ -133,7 +144,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY % props-attribute-extensions
-  "%deliveryTargetAtt-d-attribute;"
+  "%audienceAtt-d-attribute;
+   %deliveryTargetAtt-d-attribute;
+   %otherpropsAtt-d-attribute;
+   %platformAtt-d-attribute;
+   %productAtt-d-attribute;"
 >
 <!ENTITY % base-attribute-extensions
   ""
@@ -152,19 +167,11 @@
 <!-- ============================================================= -->
 
 <!ENTITY included-domains
-                          "&learningBase-att;
-                           &learningAssessment-att;
+                          "&audienceAtt-d-att;
                            &deliveryTargetAtt-d-att;
-                           &hi-d-att;
-                           &indexing-d-att;
-                           &ut-d-att;
-                           &relmgmt-d-att;
-                           &learningInteractionBase-d-att;
-                           &learningInteractionBase2-d-att;
-                           &learning-d-att;
-                           &learning2-d-att;
-                           &learningmeta-d-att;
-  "
+                           &otherpropsAtt-d-att;
+                           &platformAtt-d-att;
+                           &productAtt-d-att;"
 >
 
 <!-- ============================================================= -->
@@ -199,11 +206,6 @@
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
 
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
-
 <!ENTITY % ut-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Utilities Domain//EN"
          "../../base/dtd/utilitiesDomain.mod"
@@ -219,20 +221,10 @@
          "learningInteractionBaseDomain.mod"
 >%learningInteractionBase-d-def;
 
-<!ENTITY % learningInteractionBase2-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning Interaction Base 2 Domain//EN"
-         "learningInteractionBase2Domain.mod"
->%learningInteractionBase2-d-def;
-
 <!ENTITY % learning-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning Domain//EN"
          "learningDomain.mod"
 >%learning-d-def;
-
-<!ENTITY % learning2-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning 2 Domain//EN"
-         "learning2Domain.mod"
->%learning2-d-def;
 
 <!ENTITY % learningmeta-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Learning Metadata Domain//EN"

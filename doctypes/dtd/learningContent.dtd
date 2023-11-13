@@ -133,8 +133,7 @@
 <!ENTITY % ph           "ph |
                          %hi-d-ph;
                         ">
-<!ENTITY % fig          "fig |
-                         %ut-d-fig;;
+<!ENTITY % fig          "fig
                         ">
 <!ENTITY % data         "data |
                          %ut-d-data;
@@ -145,7 +144,8 @@
                         ">
 <!ENTITY % div          "div |
                          %learningInteractionBase-d-div; |
-                         %learning-d-div;
+                         %learning-d-div; |
+                         %ut-d-div;
                         ">
 <!ENTITY % note         "note |
                          %learning-d-note;

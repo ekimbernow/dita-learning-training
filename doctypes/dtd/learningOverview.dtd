@@ -248,11 +248,6 @@
          "../../base/dtd/highlightDomain.mod"
 >%hi-d-def;
 
-<!ENTITY % indexing-d-def
-  PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Indexing Domain//EN"
-         "../../base/dtd/indexingDomain.mod"
->%indexing-d-def;
-
 <!ENTITY % relmgmt-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Release Management Domain//EN"
          "../../technicalContent/dtd/releaseManagementDomain.mod"

@@ -37,7 +37,7 @@
                        "lcInteractionBase"                           >
 <!ENTITY % lcInteractionLabel
                        "lcInteractionLabel"                          >
-<!ENTITY % lcQuestionBase2
+<!ENTITY % lcQuestionBase
                        "lcQuestionBase"                              >
 
 <!-- ============================================================= -->
@@ -97,8 +97,8 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  lcInteractionBase  %global-atts;  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase ">
-<!ATTLIST  lcInteractionLabel %global-atts;  class CDATA "+ topic/p   learningInteractionBase-d/lcInteractionLabel ">
-<!ATTLIST  lcQuestionBase     %global-atts;  class CDATA "+ topic/div   learningInteractionBase-d/lcQuestionBase ">
+<!ATTLIST  lcInteractionBase  class CDATA "+ topic/div learningInteractionBase-d/lcInteractionBase ">
+<!ATTLIST  lcInteractionLabel class CDATA "+ topic/p   learningInteractionBase-d/lcInteractionLabel ">
+<!ATTLIST  lcQuestionBase     class CDATA "+ topic/div learningInteractionBase-d/lcQuestionBase ">
 
 <!-- ================== End of DITA Learning Interaction Base Domain ==================== -->
