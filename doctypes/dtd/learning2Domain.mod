@@ -695,7 +695,8 @@
 <!ATTLIST  lcHotspotMap2        class CDATA "+ topic/div learningInteractionBase-d/div learning-d/lcHotspotMap learning2-d/lcHotspotMap2 ">
 <!ATTLIST  lcArea2              class CDATA "+ topic/figgroup learningInteractionBase-d/figgroup learning-d/lcArea learning2-d/lcArea2 ">
 <!ATTLIST  lcAreaShape2         class CDATA "+ topic/keyword learningInteractionBase-d/keyword learning-d/lcAreaShape learning2-d/lcAreaShape2 ">
-<!ATTLIST  lcAreaCoords2        class CDATA "+ topic/ph learningInteractionBase-d/ph learning-d/lcAreaCoords learning-d/lcAreaCoords2 ">
+<!ATTLIST  lcAreaCoords2        class CDATA "+ topic/ph learningInteractionBase-d/ph learning-d/lcAreaCoords learning2-d/lcAreaCoords2 ">
+<!ATTLIST  lcInteractionLabel2 class CDATA "+ topic/p   learningInteractionBase-d/lcInteractionLabel learning2-d/lcInteractionLabel2 ">
 
 <!-- ================== End of DITA Learning 2 Domain ==================== -->
  
