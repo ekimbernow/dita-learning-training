@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+<!--  MODULE:    DITA Learning Domain                              -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      November 2024                                     -->
+<!--                                                               -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                    TYPICAL INVOCATION                         -->
+<!--                                                               -->
+<!--  Refer to this file by the following public identfier or an   -->
+<!--       appropriate system identifier                           -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA Learning Domain//EN"        -->
+<!-- ============================================================= -->
+<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
+<!--                                                               -->
+<!-- PURPOSE:    Declaring the elements and specialization         -->
+<!--             attributes for Learning Domain                    -->
+<!--                                                               -->
+<!-- ORIGINAL CREATION DATE:                                       -->
+<!--             November 2023                                     -->
+<!--                                                               -->
+<!--             (C) Copyright OASIS Open 2014, 2023               -->
+<!--             All Rights Reserved.                              -->
+<!--                                                               -->
+<!-- =============================================================   -->
+
+<!-- ============================================================= -->
+<!--                    ELEMENT EXTENSION ENTITY DECLARATIONS      -->
+<!-- ============================================================= -->
+
+<!ENTITY % learning-d-div
+  "lcTrueFalse |
+   lcSingleSelect |
+   lcMultipleSelect |
+   lcSequencing |
+   lcMatching |
+   lcHotspot |
+   lcOpenQuestion"
+>
+<!ENTITY % learning-d-lcInteractionBase
+  "lcTrueFalse |
+   lcSingleSelect |
+   lcMultipleSelect |
+   lcSequencing |
+   lcMatching |
+   lcHotspot |
+   lcOpenQuestion"
+>
+<!ENTITY % learning-d-note
+  "lcInstructornote"
+>
+
+<!-- ================ End DITA Learning  Domain ================== -->
+ 
